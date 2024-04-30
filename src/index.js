@@ -1,4 +1,5 @@
 import readlineSync from 'readline-sync';
+
 const numberOfRounds = 3;
 
 const getRandom = (min, max) => {
