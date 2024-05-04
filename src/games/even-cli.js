@@ -14,8 +14,9 @@ const checkNumber = (number) => {
 
 const playTheGameEven = () => {
   const randomNumber = getRandom(minDiaposone, maxDiaposone);
-  const checkedNumber = checkNumber(randomNumber);
-  return [randomNumber, checkedNumber];
+  const solution = checkNumber(randomNumber);
+  const expression = randomNumber;
+  return [expression, solution];
 };
 
 export { playTheGameEven, rule };
