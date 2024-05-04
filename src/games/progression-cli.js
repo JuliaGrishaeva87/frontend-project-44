@@ -23,7 +23,7 @@ const playTheGameProgression = () => {
   const progression = makeProgression(randomNumber1, randomNumber2);
   const randomIndex = getRandom(0, progression.length - 1);
   const solution = progression.splice(randomIndex, 1, '..').toString();
-  const expression = progression;
+  const expression = progression.join(' ');
   return [expression, solution];
 };
 
