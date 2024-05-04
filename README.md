@@ -7,9 +7,9 @@
 There are five Games:
 "Calculator". Arithmetic expressions that you need to calculate.
 "Progression". Searching for missing numbers in a sequence of numbers. 
-"Definition of even number"
-"Find the greatest common divisor"
-"Definition of prime number"
+"Definition of even number".
+"Find the greatest common divisor".
+"Definition of prime number".
 
 ## Setup
 
