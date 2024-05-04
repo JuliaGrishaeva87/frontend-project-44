@@ -24,22 +24,22 @@ brain-calc
 ## Run "Progression" the game
 
 ```bash
-brain-calc
+brain-progression
 ```
 ## Run "Definition of even number" the game
 
 ```bash
-brain-calc
+brain-even
 ```
 ## Run "Find the greatest common divisor" the game
 
 ```bash
-brain-calc
+brain-gcd
 ```
 ## Run "Definition of prime number" the game
 
 ```bash
-brain-calc
+brain-prime
 ```
 
 Brain-even
