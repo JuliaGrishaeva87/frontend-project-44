@@ -3,6 +3,7 @@
 
 <a href="https://codeclimate.com/github/JuliaGrishaeva87/frontend-project-44/maintainability"><img src="https://api.codeclimate.com/v1/badges/88dfd82598689bf888fe/maintainability" /></a>
 
+
 «Brain games» is a set of five console games built on the principle of popular mobile applications for brain pumping. Each game asks the right questions. Three correct answers make the game to be passed. Incorrect answers complete the game and suggest you play it again.
 There are five Games:
 "Calculator". Arithmetic expressions that you need to calculate.
