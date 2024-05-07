@@ -5,16 +5,16 @@ const maxDiaposone = 50;
 const rule = 'What number is missing in the progression?';
 
 const makeProgression = (num1, num2) => {
-  const arrProgression = [num1, num2];
+  const elements = [num1, num2];
   const difference = num2 - num1;
   const numberOfelements = getRandom(5, 10);
-  let secondElement = num2;
+  let lastElement = num2;
   for (let i = 2; i <= numberOfelements; i += 1) {
-    const elementOfProgression = secondElement + difference;
-    arrProgression.push(elementOfProgression);
-    secondElement = elementOfProgression;
+    const elementOfProgression = lastElement + difference;
+    elements.push(elementOfProgression);
+    lastElement = elementOfProgression;
   }
-  return arrProgression;
+  return elements;
 };
 
 const playTheGameProgression = () => {
