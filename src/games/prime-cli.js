@@ -8,16 +8,16 @@ const isPrime = (num) => {
   if (num >= 2) {
     for (let i = 2; i < num; i += 1) {
       if (num % i === 0) {
-        return 'no';
+        return false;
       }
     }
-    return 'yes';
-  } return 'no';
+    return true;
+  } return false;
 };
 
 const playTheGamePrime = () => {
   const randomNumber = getRandom(minDiaposone, maxDiaposone);
-  const solution = isPrime(randomNumber);
+  const solution = isPrime(randomNumber) ? 'yes' : 'no';
   const expression = randomNumber;
   return [expression, solution];
 };
