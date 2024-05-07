@@ -1,4 +1,4 @@
-import { getRandom } from '../index.js';
+import getRandom from '../utils.js';
 
 const minDiaposone = 1;
 const maxDiaposone = 1000;
