@@ -6,23 +6,18 @@ const operators = ['+', '-', '*'];
 const rule = 'What is the result of the expression?';
 
 const checkAnswer = (number1, operator, number2) => {
-  let rightAnswer = '';
   switch (operator) {
     case '+':
-      rightAnswer = number1 + number2;
-      break;
+      return number1 + number2;
     case '-':
-      rightAnswer = number1 - number2;
-      break;
+      return number1 - number2;
     case '*':
-      rightAnswer = number1 * number2;
-      break;
+      return number1 * number2;
     default:
-      console.log('Something wrong');
-      break;
+      throw new Error(`Unknown value: '${number1} or ${operator} or ${number2}'!`);
   }
-  return rightAnswer;
 };
+
 const playTheGameCalc = () => {
   const randomNumber1 = getRandom(minDiaposone, maxDiaposone);
   const randomNumber2 = getRandom(minDiaposone, maxDiaposone);
